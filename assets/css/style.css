@@ -7,21 +7,54 @@
 */
 
 /*--------------------------------------------------------------
+# cColor Variables
+--------------------------------------------------------------*/
+:root {
+  --gray-text:#999;
+  --dark-bg:#0d0d0d;
+  --link-color:#c8a415;
+  --link-color-hover:#b89518;
+  --headline-color:#eee;
+  --color-gray: #ccc;
+  --white-text: #ddd;
+  --color-yellow:#ffc107;
+  --dark-bg-lv2: #222;
+  --dark-bg-lv3: #333;
+  --dark-grey: #444;
+  --dark-grey-lv2:#555;
+  --dark-grey-lv3:#666;
+  --gray-color:#aaa;
+  --white-color:#fff;
+  --blue-color:#3b8ef3;
+  --orange-color: #f57c47;
+  --pink-color: #d7004d;
+  --red-color: #ff3b1e; 
+  --teal-color: #08b2a3; 
+  --dark-yellow: #fca70a;
+  --orange-accent: #fd9f17;
+  --yellow-light: #ffce3a;
+  --yellow-lighter: #ffec88;
+  --green-color:#006400;
+  --black-color:#000;
+}
+
+
+/*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #999; 
-  background-color: #0d0d0d; 
+  color: var(--gray-text); 
+  background-color: var(--dark-bg); 
 }
 
 a {
-  color: #c8a415; 
+  color: var(--link-color); 
   text-decoration: none;
 }
 
 a:hover {
-  color: #b89518; 
+  color: var(--link-color-hover); 
   text-decoration: none;
 }
 
@@ -32,7 +65,7 @@ h4,
 h5,
 h6 {
   font-family: "Raleway", sans-serif;
-  color: #eee; 
+  color: var(--headline-color); 
 }
 
 /*--------------------------------------------------------------
@@ -45,23 +78,23 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #c8a415;
+  background: var(--link-color);
   width: 40px;
   height: 40px;
   border-radius: 50px;
   transition: all 0.4s;
-  color: #0d0d0d; 
+  color: var(--dark-bg); 
 }
 
 .back-to-top i {
   font-size: 28px;
-  color: #0d0d0d; 
+  color: var(--dark-bg); 
   line-height: 0;
 }
 
 .back-to-top:hover {
-  background: #b89518; 
-  color: #0d0d0d;
+  background: var(--link-color-hover); 
+  color: var(--dark-bg);
 }
 
 .back-to-top.active {
@@ -99,7 +132,7 @@ h6 {
 }
 
 #header .logo a {
-  color: #ddd; 
+  color: var(--white-text); 
 }
 
 #header .logo img {
@@ -134,7 +167,7 @@ h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  color: #999; 
+  color: var(--gray-text); 
   font-size: 14px;
   white-space: nowrap;
   transition: 0.3s;
@@ -151,7 +184,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover > a {
-  color: #c8a415; 
+  color: var(--link-color); 
 }
 
 .navbar .dropdown ul {
@@ -164,7 +197,7 @@ h6 {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #0d0d0d; 
+  background: var(--dark-bg); 
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
 }
@@ -177,7 +210,7 @@ h6 {
   padding: 10px 20px;
   font-size: 14px;
   text-transform: none;
-  color: #999; 
+  color: var(--gray-text); 
 }
 
 .navbar .dropdown ul a i {
@@ -187,7 +220,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover > a {
-  color: #c8a415; 
+  color: var(--link-color); 
 }
 
 .navbar .dropdown:hover > ul {
@@ -223,7 +256,7 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #999; 
+  color: var(--gray-text); 
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -267,7 +300,7 @@ h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #0d0d0d; 
+  background-color: var(--dark-bg); 
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -276,13 +309,13 @@ h6 {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #ccc; 
+  color: var(--color-gray); 
 }
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover > a {
-  color: #c8a415; 
+  color: var(--link-color); 
 }
 
 .navbar-mobile .dropdown ul {
@@ -293,7 +326,7 @@ h6 {
   z-index: 99;
   opacity: 1;
   visibility: visible;
-  background: #0d0d0d; 
+  background: var(--dark-bg); 
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
 }
 
@@ -312,7 +345,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover > a {
-  color: #c8a415; 
+  color: var(--link-color); 
 }
 
 .navbar-mobile .dropdown > .dropdown-active {
@@ -356,11 +389,11 @@ h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #ddd; 
+  color: var(--white-text); 
 }
 
 #hero h2 {
-  color: #ccc; 
+  color: var(--color-gray); 
   margin: 15px 0 0 0;
   font-size: 22px;
 }
@@ -375,13 +408,13 @@ h6 {
   border-radius: 50px;
   transition: 0.5s;
   margin-top: 40px;
-  border: 2px solid #c8a415; 
-  color: #0d0d0d; 
-  background: #c8a415; 
+  border: 2px solid var(--link-color); 
+  color: var(--dark-bg); 
+  background: var(--link-color); 
 }
 
 #hero .btn-get-started:hover {
-  background: #b89518; 
+  background: var(--link-color-hover); 
 }
 
 @media (min-width: 1024px) {
@@ -414,7 +447,7 @@ section {
 }
 
 .section-bg {
-  background-color: #0d0d0d; 
+  background-color: var(--dark-bg); 
 }
 
 .section-title {
@@ -429,7 +462,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #eee; 
+  color: var(--headline-color); 
 }
 
 .section-title h2::after {
@@ -438,7 +471,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #ffc107;
+  background: var(--color-yellow);
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -446,7 +479,7 @@ section {
 .section-title p {
   margin-bottom: 0;
   font-size: 14px;
-  color: #999; 
+  color: var(--gray-text); 
 }
 
 /*--------------------------------------------------------------
@@ -454,7 +487,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 20px 0;
-  background-color: #0d0d0d; 
+  background-color: var(--dark-bg); 
   min-height: 40px;
   margin-top: 82px;
 }
@@ -469,7 +502,7 @@ section {
   font-size: 24px;
   font-weight: 300;
   margin: 0;
-  color: #eee; 
+  color: var(--headline-color); 
 }
 
 @media (max-width: 992px) {
@@ -485,7 +518,7 @@ section {
   padding: 0;
   margin: 0;
   font-size: 14px;
-  color: #ccc; 
+  color: var(--color-gray); 
 }
 
 .breadcrumbs ol li+li {
@@ -546,25 +579,25 @@ section {
 .about h3 {
   font-weight: 700;
   font-size: 34px;
-  color: #ccc;
+  color: var(--color-gray);
 }
 
 .about h4 {
   font-size: 20px;
   font-weight: 700;
   margin-top: 5px;
-  color: #ddd; 
+  color: var(--white-text); 
 }
 
 .about i {
   font-size: 48px;
   margin-top: 15px;
-  color: #999;
+  color: var(--gray-text);
 }
 
 .about p {
   font-size: 15px;
-  color: #999;
+  color: var(--gray-text);
 }
 
 /*--------------------------------------------------------------
@@ -577,7 +610,7 @@ section {
 .counts .counters span {
   font-size: 48px;
   display: block;
-  color: #ccc; 
+  color: var(--color-gray); 
 }
 
 .counts .counters p {
@@ -585,7 +618,7 @@ section {
   margin: 0 0 20px 0;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
-  color: #999;
+  color: var(--gray-text);
 }
 
 /*--------------------------------------------------------------
@@ -595,7 +628,7 @@ section {
   text-align: center;
   padding: 70px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
-  background: #222; 
+  background: var(--dark-bg-lv2); 
   box-shadow: 0px 5px 90px 0px rgba(0, 0, 0, 0.05); 
 }
 
@@ -608,7 +641,7 @@ section {
   justify-content: center;
   transition: ease-in-out 0.3s;
   position: relative;
-  background: #444; 
+  background: var(--dark-grey); 
   border-radius: 50px;
 }
 
@@ -623,11 +656,11 @@ section {
   font-weight: 600;
   margin: 10px 0 15px 0;
   font-size: 22px;
-  color: #eee; 
+  color: var(--headline-color); 
 }
 
 .services .icon-box h4 a {
-  color: #ccc; 
+  color: var(--color-gray); 
   transition: ease-in-out 0.3s;
 }
 
@@ -635,103 +668,103 @@ section {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
-  color: #999; 
+  color: var(--gray-text); 
 }
 
 .services .icon-box:hover {
-  border-color: #fff;
+  border-color: var(--white-color);
   box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
 }
 
 .services .iconbox-blue i {
-  color: #3b8ef3; 
+  color: var(--blue-color); 
 }
 
 .services .iconbox-blue:hover .icon {
-  background: #3b8ef3; 
+  background: var(--blue-color); 
 }
 
 .services .iconbox-blue:hover .icon i {
-  color: #fff; 
+  color: var(--white-color); 
 }
 
 .services .iconbox-orange i {
-  color: #f57c47;
+  color: var(--orange-color);
 }
 
 services .iconbox-orange:hover .icon {
-  background: #f57c47;
+  background: var(--orange-color);
 }
 
 services .iconbox-orange:hover .icon i {
-  color: #fff;
+  color: var(--white-color);
 }
 
 .services .iconbox-pink i {
-  color: #d7004d;
+  color: var(--pink-color);
 }
 
 services .iconbox-pink:hover .icon {
-  background: #d7004d;
+  background: var(--pink-color);
 }
 
 services .iconbox-pink:hover .icon i {
-  color: #fff;
+  color: var(--white-color);
 }
 
 .services .iconbox-yellow i {
-  color: #fca70a;
+  color: var(--dark-yellow);
 }
 
 services .iconbox-yellow:hover .icon {
-  background: #fca70a;
+  background: var(--dark-yellow);
 }
 
 services .iconbox-yellow:hover .icon i {
-  color: #fff;
+  color: var(--white-color);
 }
 
 .services .iconbox-red i {
-  color: #ff3b1e;
+  color: var(--red-color);
 }
 
 services .iconbox-red:hover .icon {
-  background: #ff3b1e;
+  background: var(--red-color);
 }
 
 services .iconbox-red:hover .icon i {
-  color: #fff;
+  color: var(--white-color);
 }
 
 services .iconbox-teal i {
-  color: #08b2a3;
+  color: var(--teal-color);
 }
 
 services .iconbox-teal:hover .icon {
-  background: #08b2a3;
+  background: var(--teal-color);
 }
 
 services .iconbox-teal:hover .icon i {
-  color: #fff;
+  color: var(--white-color);
 }
 
 /*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: #222; 
+  background: var(--dark-bg-lv2); 
   background-size: cover;
   padding: 60px 0;
 }
 
 .cta h3 {
-  color: #fff; 
+  color: var(--white-color); 
   font-size: 28px;
   font-weight: 700;
 }
 
 .cta p {
-  color: #ddd; 
+  color: var(--white-text); 
 }
 
 .cta .cta-btn {
@@ -744,12 +777,12 @@ services .iconbox-teal:hover .icon i {
   border-radius: 25px;
   transition: 0.5s;
   margin-top: 10px;
-  border: 2px solid #ffc107;
-  color: #fff;
+  border: 2px solid var(--color-yellow);
+  color: var(--white-color);
 }
 
 .cta .cta-btn:hover {
-  background: #ffc107;
+  background: var(--color-yellow);
 }
 
 /*--------------------------------------------------------------
@@ -771,25 +804,25 @@ services .iconbox-teal:hover .icon i {
   margin: -40px 0 0 40px;
   position: relative;
   z-index: 2;
-  border: 6px solid #fff;
+  border: 6px solid var(--white-color);
 }
 
 .testimonials .testimonial-item h3 {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 45px;
-  color: #ccc; 
+  color: var(--color-gray); 
 }
 
 .testimonials .testimonial-item h4 {
   font-size: 14px;
-  color: #999;
+  color: var(--gray-text);
   margin: 0 0 0 45px;
 }
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: #aaa; 
+  color: var(--gray-color); 
   font-size: 26px;
 }
 
@@ -810,11 +843,11 @@ services .iconbox-teal:hover .icon i {
   font-style: italic;
   margin: 0 15px 0 15px;
   padding: 20px 20px 60px 20px;
-  background: #333; 
+  background: var(--dark-bg-lv3); 
   border-radius: 6px;
   position: relative;
   z-index: 1;
-  color: #ddd; 
+  color: var(--white-text); 
 }
 
 .testimonials .swiper-pagination {
@@ -825,13 +858,13 @@ services .iconbox-teal:hover .icon i {
 .testimonials .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #fff;
+  background-color: var(--white-color);
   opacity: 1;
-  border: 1px solid #ffc107;
+  border: 1px solid var(--color-yellow);
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ffc107;
+  background-color: var(--color-yellow);
 }
 
 /*--------------------------------------------------------------
@@ -852,17 +885,17 @@ services .iconbox-teal:hover .icon i {
   font-size: 14px;
   font-weight: 500;
   line-height: 1;
-  color: #ccc; 
+  color: var(--color-gray); 
   margin: 0 3px 10px 3px;
   transition: all ease-in-out 0.3s;
-  background: #333; 
+  background: var(--dark-bg-lv3); 
   border-radius: 50px;
 }
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #fff; 
-  background: #444; 
+  color: var(--white-color); 
+  background: var(--dark-grey); 
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -888,18 +921,18 @@ services .iconbox-teal:hover .icon i {
   bottom: -50px;
   z-index: 3;
   transition: all ease-in-out 0.3s;
-  background: #444; 
+  background: var(--dark-grey); 
   padding: 15px 20px;
 }
 
 .portfolio .portfolio-item .portfolio-info h4 {
   font-size: 18px;
-  color: #fff;
+  color: var(--white-color);
   font-weight: 600;
 }
 
 .portfolio .portfolio-item .portfolio-info p {
-  color: #ccc; 
+  color: var(--color-gray); 
   font-size: 14px;
   margin-bottom: 0;
 }
@@ -916,7 +949,7 @@ services .iconbox-teal:hover .icon i {
 
 .portfolio .portfolio-item .portfolio-info .preview-link:hover,
 .portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #fff;
+  color: var(--white-color);
 }
 
 .portfolio .portfolio-item .portfolio-info .details-link {
@@ -951,19 +984,19 @@ services .iconbox-teal:hover .icon i {
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #ccc; 
+  background-color: var(--color-gray); 
   opacity: 1;
-  border: 1px solid #ffc107;
+  border: 1px solid var(--color-yellow);
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ffc107;
+  background-color: var(--color-yellow);
 }
 
 .portfolio-details .portfolio-info {
   padding: 30px;
   box-shadow: 0px 0 30px rgba(65, 76, 100, 0.08);
-  background: #333; 
+  background: var(--dark-bg-lv3); 
 }
 
 .portfolio-details .portfolio-info h3 {
@@ -971,15 +1004,15 @@ services .iconbox-teal:hover .icon i {
   font-weight: 700;
   margin-bottom: 20px;
   padding-bottom: 20px;
-  border-bottom: 1px solid #555; 
-  color: #fff; 
+  border-bottom: 1px solid var(--dark-grey-lv2); 
+  color: var(--white-color); 
 }
 
 .portfolio-details .portfolio-info ul {
   list-style: none;
   padding: 0;
   font-size: 15px;
-  color: #ccc; 
+  color: var(--color-gray); 
 }
 
 .portfolio-details .portfolio-info ul li+li {
@@ -994,12 +1027,12 @@ services .iconbox-teal:hover .icon i {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
-  color: #fff;
+  color: var(--white-color);
 }
 
 .portfolio-details .portfolio-description p {
   padding: 0;
-  color: #ccc; 
+  color: var(--color-gray); 
 }
 
 /*--------------------------------------------------------------
@@ -1010,7 +1043,7 @@ services .iconbox-teal:hover .icon i {
   overflow: hidden;
   text-align: center;
   border-radius: 5px;
-  background: #333; 
+  background: var(--dark-bg-lv3); 
   box-shadow: 0px 2px 15px rgba(65, 76, 100, 0.06);
 }
 
@@ -1036,7 +1069,7 @@ services .iconbox-teal:hover .icon i {
 
 .team .member .social a {
   transition: color 0.3s;
-  color: #ccc; 
+  color: var(--color-gray); 
   margin: 0 10px;
   display: inline-flex;
   align-items: center;
@@ -1048,7 +1081,7 @@ services .iconbox-teal:hover .icon i {
 }
 
 .team .member .social a:hover {
-  color: #ffc107;
+  color: var(--color-yellow);
 }
 
 .team .member .social i {
@@ -1064,21 +1097,21 @@ services .iconbox-teal:hover .icon i {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 18px;
-  color: #fff; 
+  color: var(--white-color); 
 }
 
 .team .member .member-info span {
   display: block;
   font-size: 13px;
   font-weight: 400;
-  color: #aaa; 
+  color: var(--gray-color); 
 }
 
 .team .member .member-info p {
   font-style: italic;
   font-size: 14px;
   line-height: 26px;
-  color: #ccc; 
+  color: var(--color-gray); 
 }
 
 .team .member:hover .social {
@@ -1110,7 +1143,7 @@ services .iconbox-teal:hover .icon i {
 
 .pricing h4 {
   font-size: 36px;
-  color: #fd9f17; 
+  color: var(--orange-accent); 
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   margin-bottom: 20px;
@@ -1131,7 +1164,7 @@ services .iconbox-teal:hover .icon i {
 .pricing ul {
   padding: 0;
   list-style: none;
-  color: #555; 
+  color: var(--dark-grey-lv2); 
   text-align: center;
   line-height: 20px;
   font-size: 14px;
@@ -1142,13 +1175,13 @@ services .iconbox-teal:hover .icon i {
 }
 
 .pricing ul i {
-  color: #fd9f17; 
+  color: var(--orange-accent); 
   font-size: 18px;
   padding-right: 4px;
 }
 
 .pricing ul .na {
-  color: #999; 
+  color: var(--gray-text); 
   text-decoration: line-through;
 }
 
@@ -1169,23 +1202,23 @@ services .iconbox-teal:hover .icon i {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   transition: 0.3s;
-  border: 2px solid #ccc; 
+  border: 2px solid var(--color-gray); 
   color: #445175; 
 }
 
 .pricing .btn-buy:hover {
-  background: #fff; 
+  background: var(--white-color); 
 }
 
 .pricing .featured h3 {
-  color: #fff;
-  background: #fd9f17; 
+  color: var(--white-color);
+  background: var(--orange-accent); 
 }
 
 .pricing .featured .btn-buy {
-  background: #fd9f17; 
-  color: #fff;
-  border: 2px solid #fd9f17; 
+  background: var(--orange-accent); 
+  color: var(--white-color);
+  border: 2px solid var(--orange-accent); 
 }
 
 .pricing .featured .btn-buy:hover {
@@ -1201,8 +1234,8 @@ services .iconbox-teal:hover .icon i {
   z-index: 1;
   font-size: 14px;
   padding: 1px 0 3px 0;
-  background: #fd9f17; 
-  color: #fff;
+  background: var(--orange-accent); 
+  color: var(--white-color);
 }
 
 /*--------------------------------------------------------------
@@ -1223,7 +1256,7 @@ services .iconbox-teal:hover .icon i {
 
 .faq .faq-list li {
   padding: 20px;
-  background: #333; 
+  background: var(--dark-bg-lv3); 
   border-radius: 4px;
   position: relative;
 }
@@ -1238,7 +1271,7 @@ services .iconbox-teal:hover .icon i {
   padding: 0 30px;
   outline: none;
   cursor: pointer;
-  color: #ccc; 
+  color: var(--color-gray); 
 }
 
 .faq .faq-list .icon-help {
@@ -1246,7 +1279,7 @@ services .iconbox-teal:hover .icon i {
   position: absolute;
   right: 0;
   left: 20px;
-  color: #ffc107;
+  color: var(--color-yellow);
 }
 
 .faq .faq-list .icon-show,
@@ -1267,12 +1300,12 @@ services .iconbox-teal:hover .icon i {
 }
 
 .faq .faq-list a.collapsed {
-  color: #ccc; 
+  color: var(--color-gray); 
   transition: 0.3s;
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #ffc107;
+  color: var(--color-yellow);
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -1294,7 +1327,7 @@ services .iconbox-teal:hover .icon i {
 # Contact
 --------------------------------------------------------------*/
 .contact .info-box {
-  color: #ccc; 
+  color: var(--color-gray); 
   text-align: center;
   box-shadow: 0 0 20px rgba(30, 30, 30, 0.2); 
   padding: 20px 0 30px 0;
@@ -1302,7 +1335,7 @@ services .iconbox-teal:hover .icon i {
 
 .contact .info-box i {
   font-size: 32px;
-  color: #ffce3a; 
+  color: var(--yellow-light); 
   border-radius: 50%;
   padding: 8px;
   border: 2px dotted #888; 
@@ -1310,7 +1343,7 @@ services .iconbox-teal:hover .icon i {
 
 .contact .info-box h3 {
   font-size: 20px;
-  color: #999; 
+  color: var(--gray-text); 
   font-weight: 700;
   margin: 10px 0;
 }
@@ -1329,7 +1362,7 @@ services .iconbox-teal:hover .icon i {
 
 .contact .php-email-form .error-message {
   display: none;
-  color: #fff;
+  color: var(--white-color);
   background: #800000; 
   text-align: left;
   padding: 15px;
@@ -1338,8 +1371,8 @@ services .iconbox-teal:hover .icon i {
 
 .contact .php-email-form .sent-message {
   display: none;
-  color: #fff;
-  background: #006400;
+  color: var(--white-color);
+  background: var(--green-color);
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1347,7 +1380,7 @@ services .iconbox-teal:hover .icon i {
 
 .contact .php-email-form .loading {
   display: none;
-  background: #333; 
+  background: var(--dark-bg-lv3); 
   text-align: center;
   padding: 15px;
 }
@@ -1359,8 +1392,8 @@ services .iconbox-teal:hover .icon i {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #006400; 
-  border-top-color: #eee;
+  border: 3px solid var(--green-color); 
+  border-top-color: var(--headline-color);
   animation: animate-loading 1s linear infinite;
 }
 
@@ -1369,13 +1402,13 @@ services .iconbox-teal:hover .icon i {
   border-radius: 4px;
   box-shadow: none;
   font-size: 14px;
-  color: #ccc; 
-  background: #444;
+  color: var(--color-gray); 
+  background: var(--dark-grey);
 }
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #ffce3a; 
+  border-color: var(--yellow-light); 
 }
 
 .contact .php-email-form input {
@@ -1387,17 +1420,17 @@ services .iconbox-teal:hover .icon i {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #ffce3a; 
+  background: var(--yellow-light); 
   border: 0;
   padding: 10px 30px;
-  color: #333; 
+  color: var(--dark-bg-lv3); 
   transition: 0.4s;
   border-radius: 50px;
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #ffec88; 
-  color: #000; 
+  background: var(--yellow-lighter); 
+  color: var(--black-color); 
 }
 
 @keyframes animate-loading {
@@ -1415,14 +1448,14 @@ services .iconbox-teal:hover .icon i {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  color: #ccc; 
+  color: var(--color-gray); 
   font-size: 14px;
-  background: #333; 
+  background: var(--dark-bg-lv3); 
 }
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #444;
+  background: var(--dark-grey);
 }
 
 #footer .footer-top .footer-contact {
@@ -1435,7 +1468,7 @@ services .iconbox-teal:hover .icon i {
   padding: 2px 0 2px 0;
   line-height: 1;
   font-weight: 700;
-  color: #ffce3a; 
+  color: var(--yellow-light); 
 }
 
 #footer .footer-top .footer-contact p {
@@ -1443,13 +1476,13 @@ services .iconbox-teal:hover .icon i {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Raleway", sans-serif;
-  color: #999; 
+  color: var(--gray-text); 
 }
 
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #ccc; 
+  color: var(--color-gray); 
   position: relative;
   padding-bottom: 12px;
 }
@@ -1466,7 +1499,7 @@ services .iconbox-teal:hover .icon i {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #ffce3a; 
+  color: var(--yellow-light); 
   font-size: 18px;
   line-height: 1;
 }
@@ -1482,7 +1515,7 @@ services .iconbox-teal:hover .icon i {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #999; 
+  color: var(--gray-text); 
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -1490,7 +1523,7 @@ services .iconbox-teal:hover .icon i {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #ffce3a; 
+  color: var(--yellow-light); 
 }
 
 #footer .footer-newsletter {
@@ -1500,27 +1533,27 @@ services .iconbox-teal:hover .icon i {
 #footer .footer-newsletter h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #ccc; 
+  color: var(--color-gray); 
   position: relative;
   padding-bottom: 12px;
 }
 
 #footer .footer-newsletter form {
   margin-top: 30px;
-  background: #444; 
+  background: var(--dark-grey); 
   padding: 6px 10px;
   position: relative;
   border-radius: 50px;
   text-align: left;
-  border: 1px solid #666; 
+  border: 1px solid var(--dark-grey-lv3); 
 }
 
 #footer .footer-newsletter form input[type=email] {
   border: 0;
   padding: 4px 8px;
   width: calc(100% - 100px);
-  color: #ccc; 
-  background: #333; 
+  color: var(--color-gray); 
+  background: var(--dark-bg-lv3); 
 }
 
 #footer .footer-newsletter form input[type=submit] {
@@ -1532,29 +1565,29 @@ services .iconbox-teal:hover .icon i {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #ffce3a; 
-  color: #333; 
+  background: var(--yellow-light); 
+  color: var(--dark-bg-lv3); 
   transition: 0.3s;
   border-radius: 50px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
 #footer .footer-newsletter form input[type=submit]:hover {
-  background: #ffec88; 
-  color: #000; 
+  background: var(--yellow-lighter); 
+  color: var(--black-color); 
 }
 
 #footer .credits {
   padding-top: 5px;
   font-size: 13px;
-  color: #999; 
+  color: var(--gray-text); 
 }
 
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #666; 
-  color: #999; 
+  background: var(--dark-grey-lv3); 
+  color: var(--gray-text); 
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1566,6 +1599,6 @@ services .iconbox-teal:hover .icon i {
 }
 
 #footer .social-links a:hover {
-  background: #ffce3a; 
+  background: var(--yellow-light); 
   text-decoration: none;
 }
