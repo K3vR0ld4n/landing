@@ -622,9 +622,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Services
+# news
 --------------------------------------------------------------*/
-.services .icon-box {
+.news .icon-box {
   text-align: center;
   padding: 70px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
@@ -632,7 +632,7 @@ section {
   box-shadow: 0px 5px 90px 0px rgba(0, 0, 0, 0.05); 
 }
 
-.services .icon-box .icon {
+.news .icon-box .icon {
   margin: 0 auto;
   width: 64px;
   height: 64px;
@@ -645,106 +645,106 @@ section {
   border-radius: 50px;
 }
 
-.services .icon-box .icon i {
+.news .icon-box .icon i {
   font-size: 32px;
   transition: 0.5s;
   line-height: 1;
   position: relative;
 }
 
-.services .icon-box h4 {
+.news .icon-box h4 {
   font-weight: 600;
   margin: 10px 0 15px 0;
   font-size: 22px;
   color: var(--headline-color); 
 }
 
-.services .icon-box h4 a {
+.news .icon-box h4 a {
   color: var(--color-gray); 
   transition: ease-in-out 0.3s;
 }
 
-.services .icon-box p {
+.news .icon-box p {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
   color: var(--gray-text); 
 }
 
-.services .icon-box:hover {
+.news .icon-box:hover {
   border-color: var(--white-color);
   box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
 }
 
-.services .iconbox-blue i {
+.news .iconbox-blue i {
   color: var(--blue-color); 
 }
 
-.services .iconbox-blue:hover .icon {
+.news .iconbox-blue:hover .icon {
   background: var(--blue-color); 
 }
 
-.services .iconbox-blue:hover .icon i {
+.news .iconbox-blue:hover .icon i {
   color: var(--white-color); 
 }
 
-.services .iconbox-orange i {
+.news .iconbox-orange i {
   color: var(--orange-color);
 }
 
-services .iconbox-orange:hover .icon {
+news .iconbox-orange:hover .icon {
   background: var(--orange-color);
 }
 
-services .iconbox-orange:hover .icon i {
+news .iconbox-orange:hover .icon i {
   color: var(--white-color);
 }
 
-.services .iconbox-pink i {
+.news .iconbox-pink i {
   color: var(--pink-color);
 }
 
-services .iconbox-pink:hover .icon {
+news .iconbox-pink:hover .icon {
   background: var(--pink-color);
 }
 
-services .iconbox-pink:hover .icon i {
+news .iconbox-pink:hover .icon i {
   color: var(--white-color);
 }
 
-.services .iconbox-yellow i {
+.news .iconbox-yellow i {
   color: var(--dark-yellow);
 }
 
-services .iconbox-yellow:hover .icon {
+news .iconbox-yellow:hover .icon {
   background: var(--dark-yellow);
 }
 
-services .iconbox-yellow:hover .icon i {
+news .iconbox-yellow:hover .icon i {
   color: var(--white-color);
 }
 
-.services .iconbox-red i {
+.news .iconbox-red i {
   color: var(--red-color);
 }
 
-services .iconbox-red:hover .icon {
+news .iconbox-red:hover .icon {
   background: var(--red-color);
 }
 
-services .iconbox-red:hover .icon i {
+news .iconbox-red:hover .icon i {
   color: var(--white-color);
 }
 
-services .iconbox-teal i {
+news .iconbox-teal i {
   color: var(--teal-color);
 }
 
-services .iconbox-teal:hover .icon {
+news .iconbox-teal:hover .icon {
   background: var(--teal-color);
 }
 
-services .iconbox-teal:hover .icon i {
+news .iconbox-teal:hover .icon i {
   color: var(--white-color);
 }
 
