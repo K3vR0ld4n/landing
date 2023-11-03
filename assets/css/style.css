@@ -868,9 +868,9 @@ news .iconbox-teal:hover .icon i {
 }
 
 /*--------------------------------------------------------------
-# Portfolio
+# artists
 --------------------------------------------------------------*/
-.portfolio #portfolio-flters {
+.artists #artists-flters {
   padding: 0;
   margin: 0 auto 25px auto;
   list-style: none;
@@ -878,7 +878,7 @@ news .iconbox-teal:hover .icon i {
   border-radius: 50px;
 }
 
-.portfolio #portfolio-flters li {
+.artists #artists-flters li {
   cursor: pointer;
   display: inline-block;
   padding: 8px 18px 10px 18px;
@@ -892,28 +892,28 @@ news .iconbox-teal:hover .icon i {
   border-radius: 50px;
 }
 
-.portfolio #portfolio-flters li:hover,
-.portfolio #portfolio-flters li.filter-active {
+.artists #artists-flters li:hover,
+.artists #artists-flters li.filter-active {
   color: var(--white-color); 
   background: var(--dark-grey); 
 }
 
-.portfolio #portfolio-flters li:last-child {
+.artists #artists-flters li:last-child {
   margin-right: 0;
 }
 
-.portfolio .portfolio-item {
+.artists .artists-item {
   margin-bottom: 30px;
   overflow: hidden;
 }
 
-.portfolio .portfolio-item img {
+.artists .artists-item img {
   position: relative;
   top: 0;
   transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
-.portfolio .portfolio-item .portfolio-info {
+.artists .artists-item .artists-info {
   opacity: 0;
   position: absolute;
   left: 15px;
@@ -925,20 +925,20 @@ news .iconbox-teal:hover .icon i {
   padding: 15px 20px;
 }
 
-.portfolio .portfolio-item .portfolio-info h4 {
+.artists .artists-item .artists-info h4 {
   font-size: 18px;
   color: var(--white-color);
   font-weight: 600;
 }
 
-.portfolio .portfolio-item .portfolio-info p {
+.artists .artists-item .artists-info p {
   color: var(--color-gray); 
   font-size: 14px;
   margin-bottom: 0;
 }
 
-.portfolio .portfolio-item .portfolio-info .preview-link,
-.portfolio .portfolio-item .portfolio-info .details-link {
+.artists .artists-item .artists-info .preview-link,
+.artists .artists-item .artists-info .details-link {
   position: absolute;
   right: 50px;
   font-size: 24px;
@@ -947,41 +947,41 @@ news .iconbox-teal:hover .icon i {
   transition: ease-in-out 0.3s;
 }
 
-.portfolio .portfolio-item .portfolio-info .preview-link:hover,
-.portfolio .portfolio-item .portfolio-info .details-link:hover {
+.artists .artists-item .artists-info .preview-link:hover,
+.artists .artists-item .artists-info .details-link:hover {
   color: var(--white-color);
 }
 
-.portfolio .portfolio-item .portfolio-info .details-link {
+.artists .artists-item .artists-info .details-link {
   right: 15px;
 }
 
-.portfolio .portfolio-item:hover img {
+.artists .artists-item:hover img {
   top: -30px;
 }
 
-.portfolio .portfolio-item:hover .portfolio-info {
+.artists .artists-item:hover .artists-info {
   opacity: 1;
   bottom: 0;
 }
 
 /*--------------------------------------------------------------
-# Portfolio Details
+# artists Details
 --------------------------------------------------------------*/
-.portfolio-details {
+.artists-details {
   padding-top: 40px;
 }
 
-.portfolio-details .portfolio-details-slider img {
+.artists-details .artists-details-slider img {
   width: 100%;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination {
+.artists-details .artists-details-slider .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.artists-details .artists-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: var(--color-gray); 
@@ -989,17 +989,17 @@ news .iconbox-teal:hover .icon i {
   border: 1px solid var(--color-yellow);
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.artists-details .artists-details-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: var(--color-yellow);
 }
 
-.portfolio-details .portfolio-info {
+.artists-details .artists-info {
   padding: 30px;
   box-shadow: 0px 0 30px rgba(65, 76, 100, 0.08);
   background: var(--dark-bg-lv3); 
 }
 
-.portfolio-details .portfolio-info h3 {
+.artists-details .artists-info h3 {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -1008,29 +1008,29 @@ news .iconbox-teal:hover .icon i {
   color: var(--white-color); 
 }
 
-.portfolio-details .portfolio-info ul {
+.artists-details .artists-info ul {
   list-style: none;
   padding: 0;
   font-size: 15px;
   color: var(--color-gray); 
 }
 
-.portfolio-details .portfolio-info ul li+li {
+.artists-details .artists-info ul li+li {
   margin-top: 10px;
 }
 
-.portfolio-details .portfolio-description {
+.artists-details .artists-description {
   padding-top: 30px;
 }
 
-.portfolio-details .portfolio-description h2 {
+.artists-details .artists-description h2 {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
   color: var(--white-color);
 }
 
-.portfolio-details .portfolio-description p {
+.artists-details .artists-description p {
   padding: 0;
   color: var(--color-gray); 
 }
