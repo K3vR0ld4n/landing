@@ -1,0 +1,168 @@
+nombre: TaylorSwift
+titulo: La Reinventora del Pop
+debut:Taylor Swift debutó en 2006 con su álbum homónimo,"Taylor Swift".
+seguidores: 105.6 M
+ultimoAlbum: "1989" lanzado en 2023.
+web: https://www.taylorswift.com/
+descripcion: Desde su inicio como una sensación de YouTube hasta convertirse en una superestrella global, Justin Bieber ha mantenido a sus seguidores cautivados con su voz distintiva y su evolución musical, demostrando que su talento va más allá de sus inicios como un prodigio adolescente.
+
+nombre: JustinBieber
+titulo: El Prodigio Convertido en Superestrella
+debut: Justin Bieber debutó en 2009 con su álbum "My World".
+seguidores:73.3 M
+ultimoAlbum: "Justice", lanzado en 2021.
+web:https://www.justinbiebermusic.com/
+descripcion: Desde su inicio como una sensación de YouTube hasta convertirse en una superestrella global, Justin Bieber ha mantenido a sus seguidores cautivados con su voz distintiva y su evolución musical, demostrando que su talento va más allá de sus inicios como un prodigio adolescente.
+
+nombre: ArianaGrande
+titulo: Voz de Oro y Estilo Inconfundible
+debut Ariana debutó en 2013 con su álbum "Yours Truly".
+seguidores: 64.0 M
+ultimoAlbum: "Yours Truly" lanzado en 2023.
+web: https://www.arianagrande.com/
+descripcion: Ariana Grande ha dejado una marca indeleble en la música pop con su voz distintiva y su estilo inconfundible. Su capacidad para fusionar el pop con elementos de R&B la ha llevado a la cima de la industria musical.
+
+nombre: EdSheeran
+titulo: El Cantautor Moderno
+debut: Ed Sheeran debutó en 2011 con su álbum "+ (Plus)".
+seguidores: 75.2 M
+ultimoAlbum: "Autumn Variations" lanzado en 2023
+web: https://www.edsheeran.com/
+descripcion:  Ed Sheeran ha cautivado al mundo con su habilidad para componer canciones pegajosas y letras conmovedoras. Su talento como cantautor y su enfoque auténtico han ganado el corazón de millones de fanáticos en todo el mundo.
+
+nombre: DuaLipa
+titulo: Energía Electrizante y Estilo Vanguardista
+debut: Dua Lipa debutó en 2017 con su álbum homónimo "Dua Lipa".
+seguidores:67.4 M
+ultimoAlbum: "Future Nostalgia", lanzado en 2021.
+web: https://www.dualipa.com/
+descripcion: Dua Lipa ha irrumpido en la escena musical con su energía electrizante y un estilo vanguardista. Su habilidad para fusionar sonidos contemporáneos con una estética visual única la ha llevado a ser una de las figuras más destacadas en el panorama del pop actual.
+
+nombre: ShawnMendes
+titulo: Sensibilidad Musical y Carisma Inigualable
+debut: Shawn Mendes debutó en 2015 con su álbum "Handwritten".
+deguidores: 44.4 M
+ultimoAlbum: "Wonder", lanzado en 2020.
+web: https://www.shawnmendesofficial.com/
+descripcion:  Shawn Mendes ha cautivado a audiencias de todo el mundo con su sensibilidad musical y su carisma inigualable. Desde sus inicios en las redes sociales hasta convertirse en un ídolo pop, ha demostrado una madurez artística y un poderoso atractivo que lo sitúa como una de las estrellas más brillantes del pop contemporáneo.
+
+nombre: Madonna
+titulo: Reina del Reinvento y Provocación
+debut: Madonna debutó en 1983 con su álbum homónimo "Madonna".
+seguidores: 37.5 M
+ultimoAlbum: "Finally Enough Love", lanzado en 2022.
+web: https://www.madonna.com/
+descripcion: Madonna, una figura icónica en la industria musical, se ha ganado el título de "Reina del Reinvento y Provocación". Su álbum debut, "Madonna", la lanzó al estrellato en 1983, marcando el comienzo de una carrera impresionante. Con una base masiva de seguidores, ha continuado innovando y desafiando los límites del arte y la música, recientemente lanzando su álbum "Finally Enough Love".
+
+nombre: MichaelJackson
+titulo: El Rey del Pop y su Legado Inmortal
+debut: Michael Jackson debutó en solitario en 1971 con el álbum "Got to Be There".
+seguidores: 73.1 M
+ultimoAlbum: "XSCAPE", lanzado en 2014.
+web: https://www.michaeljackson.com/
+descripcion: Michael Jackson, conocido como el Rey del Pop, dejó un legado musical inmortal. Su debut en solitario con "Got to Be There" en 1971 marcó el inicio de una carrera legendaria. Con millones de seguidores, su álbum póstumo "XSCAPE" sigue cautivando a los fanáticos con su genio musical.
+
+nombre: Prince
+titulo: Genio Musical y Estilo Inconfundible
+debut: Prince debutó en 1978 con su álbum "For You".
+seguidores: 8.7 M
+ultimoAlbum: "Hit n Run Phase Two", lanzado en 2015.
+web: https://prince.com/
+descripcion: Prince, un genio musical con un estilo inconfundible, debutó con "For You" en 1978. A pesar de su fallecimiento, su música sigue cautivando a una base leal de seguidores. Su álbum "Hit n Run Phase Two" muestra su atemporalidad y originalidad.
+
+nombre: WhitneyHouston
+titulo: Voz Inigualable y Legado Permanente
+debut: Whitney Houston debutó en 1985 con su álbum homónimo "Whitney Houston".
+seguidores: 10.2 M
+ultimoAlbum: "I Look to You", lanzado en 2009.
+web: No se dispone 
+descripcion: Whitney Houston, reconocida por su voz inigualable, dejó un legado permanente en la música. Su álbum debut homónimo la catapultó al estrellato en 1985. Aunque no existe un sitio web oficial tras su fallecimiento, su influencia perdura a través de su música.
+
+nombre: EltonJohn
+titulo: Maestría Musical y Longevidad en el Escenario
+debut: Elton John debutó en 1969 con su álbum "Empty Sky".
+seguidores: 12.4 M
+ultimoAlbum: "The Lockdown Sessions", lanzado en 2021.
+web: https://www.eltonjohn.com/
+descripcion: Elton John, conocido por su maestría musical y su longevidad en el escenario, debutó con "Empty Sky" en 1969. Con una base sólida de seguidores, su álbum "The Lockdown Sessions" de 2021 muestra su habilidad atemporal en la música.
+
+nombre: LadyGaga
+titulo: La Reina del Espectáculo y la Excentricidad
+debut: Lady Gaga debutó con "The Fame" en 2008.
+seguidores: 84.6 M
+ultimoAlbum: "Chromatica", lanzado en 2020.
+web: https://www.ladygaga.com/
+descripcion: Lady Gaga, conocida por su extravagancia y estilo único, debutó con "The Fame" en 2008. Con una gran base de seguidores, su último álbum "Chromatica" muestra su habilidad para fusionar la música pop con la electrónica y la danza.
+
+nombre: BrunoMars
+titulo: Versatilidad y Carisma Escénico
+debut: Bruno Mars debutó en 2010 con su álbum "Doo-Wops & Hooligans".
+seguidores: 64.5 M
+ultimoAlbum: "24K Magic", lanzado en 2016.
+web: https://www.brunomars.com/
+descripcion: Bruno Mars ha demostrado una versatilidad excepcional y un carisma deslumbrante en la industria musical. Con millones de seguidores, su álbum "24K Magic" refleja su habilidad para fusionar estilos musicales y cautivar al público.
+
+nombre: BillieEilish
+titulo: Ecléctica y Revolucionaria
+debut: Billie Eilish debutó en 2017 con su sencillo "Ocean Eyes".
+seguidores: 73.8 M
+ultimoAlbum: "Happier Than Ever", lanzado en 2021.
+web: https://www.billieeilish.com/
+descripcion: Billie Eilish ha revolucionado la escena pop con su estilo ecléctico y auténtico. Con millones de seguidores, su último álbum "Happier Than Ever" muestra su madurez artística y profundidad en la música.
+
+nombre: KatyPerry
+titulo: Color y Alegría Musical
+debut: Katy Perry debutó en 2001 con su álbum "Katy Hudson".
+seguidores: 49.2 M
+ultimoAlbum: "One Of The Boys", lanzado en 2023.
+web: https://www.katyperry.com/
+descripcion: Katy Perry es conocida por su estilo lleno de color y una música que irradia alegría. Con una amplia base de seguidores, su álbum "Smile" refleja su energía y presencia en la escena musical.
+
+nombre: Beyonce
+titulo: Realeza Musical y Empoderamiento
+debut: Beyoncé se hizo conocida con Destiny's Child en los años 90 antes de su debut en solitario con "Dangerously in Love" en 2003.
+seguidores: 40 M
+ultimoAlbum: "RENAISSANCE", lanzado en 2022.
+web: https://www.beyonce.com/
+descripcion: Beyoncé, conocida por su talento vocal y su presencia imponente, ha sido una figura icónica en la música pop. Con millones de seguidores, su álbum "The Lion King: The Gift" mostró su habilidad para fusionar música con un mensaje poderoso.
+
+nombre: OliviaRodrigo
+titulo: La Sensación Emergente del Pop
+debut: Olivia Rodrigo debutó en 2021 con su álbum "SOUR".
+seguidores: 44.4 M
+ultimoAlbum: "GUTS", lanzado en 2023.
+web: https://oliviarodrigo.com/
+descripcion: Olivia Rodrigo emergió como una sensación en la escena pop con su álbum debut "SOUR". A pesar de su corta trayectoria, ha acumulado millones de seguidores con su música auténtica y emotiva.
+
+nombre: LilNasX
+titulo: Innovación y Atrevimiento Musical
+debut: Lil Nas X debutó en 2019 con su EP "7".
+seguidores: 21.8 M
+ultimoAlbum: "Montero", lanzado en 2021.
+web: https://www.lilnasx.com/
+descripcion: Lil Nas X ha desafiado las normas musicales con su innovación y atrevimiento. Desde su éxito viral "Old Town Road", ha consolidado una base de seguidores con su música audaz y su presencia en redes sociales.
+
+nombre: DojaCat
+titulo: Ecléctica y Versátil
+debut: Doja Cat debutó en 2014 con su álbum "Purrr!".
+seguidores: 15.9 M
+ultimoAlbum: "Scarlet", lanzado en 2023.
+web: https://www.dojacat.com/
+descripcion: Doja Cat ha demostrado una versatilidad única en su música desde su debut con "Purrr!". Su álbum "Planet Her" muestra su habilidad para fusionar diferentes estilos y su crecimiento en la industria.
+
+nombre: TheKidLaroi
+titulo: Talento Emergente con Gran Potencial
+debut: The Kid Laroi debutó en 2020 con su mixtape "F*CK LOVE".
+seguidores: 38.2 M
+ultimoAlbum: "F*CK LOVE 3: Over You", lanzado en 2021.
+web: https://thekidlaroi.com/
+descripcion: The Kid Laroi ha emergido como un talento con un potencial prometedor en la música. Desde su debut, ha atraído a una audiencia joven y en crecimiento con su música y estilo únicos.
+
+nombre: ConanGray
+titulo: Sensibilidad y Profundidad Musical
+debut: Conan Gray debutó en 2020 con su álbum "Kid Krow".
+seguidores: 23.9 M
+ultimoAlbum: "Superache", lanzado en 2022.
+web: https://www.conangray.com/
+descripcion: Conan Gray ha cautivado a audiencias con su sensibilidad y profundidad musical desde su debut con "Kid Krow". A pesar de ser relativamente nuevo en la industria, ha ganado seguidores con su música introspectiva.
+

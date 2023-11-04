@@ -56,7 +56,11 @@
               <div class="artists-details-slider swiper">
                 <div class="swiper-wrapper align-items-center">
                   <div class="swiper-slide">
-                    <img src="assets/img/artists/artists-details-1.jpg" alt="">
+                    <img
+                      id="firstImage"
+                      src="assets/img/artists/artists-details-1.jpg"
+                      alt=""
+                    />
                   </div>
                 </div>
                 <div class="swiper-pagination"></div>
@@ -65,20 +69,20 @@
 
             <div class="col-lg-4">
               <div class="artists-info">
-                <h3>Project information</h3>
+                <h3>Informacion del Artista</h3>
                 <ul>
-                  <li><strong>Category</strong>: Web design</li>
-                  <li><strong>Client</strong>: ASU Company</li>
-                  <li><strong>Project date</strong>: 01 March, 2020</li>
+                  <li><strong>Debut</strong>: <p id="debut">01 March, 2020</p></li>
+                  <li><strong>Segidores</strong>: <p id="followers">0000000</p></li>
+                  <li><strong>Ultimo Album</strong>:  <p id="album">nnnnnnnnn</p></li>
                   <li>
-                    <strong>Project URL</strong>:
-                    <a href="#">www.example.com</a>
+                    <strong>Web</strong>:
+                    <a  id="web" href="#">www.example.com</a>
                   </li>
                 </ul>
               </div>
               <div class="artists-description">
-                <h2>This is an example of artists detail</h2>
-                <p>
+                <h2 id="title">This is an example of artists detail</h2>
+                <p id="description">
                   Autem ipsum nam porro corporis rerum. Quis eos dolorem eos
                   itaque inventore commodi labore quia quia. Exercitationem
                   repudiandae officiis neque suscipit non officia eaque itaque
@@ -101,21 +105,18 @@
       ><i class="bi bi-arrow-up-short"></i
     ></a>
 
+    <!--  Load JS File -->
+    <script src="assets/js/loadInfo.js"></script>
 
     <!-- Vendor JS Files -->
     <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
     <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>  
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
     <script src="assets/vendor/php-email-form/validate.js"></script>
-
-            <!--  Load JS File -->
-            <script src="assets/js/loadInfo.js"></script>
-
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
-
   </body>
 </html>

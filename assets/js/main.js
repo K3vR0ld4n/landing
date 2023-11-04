@@ -236,7 +236,7 @@
   /**
    * artists details slider
    */
-  new Swiper('.artists-details-slider', {
+ var mySwiper= new Swiper('.artists-details-slider', {
     speed: 400,
     loop: true,
     autoplay: {
@@ -249,9 +249,9 @@
       clickable: true
     }
   });
-
+/*
   mySwiper.update();
-mySwiper.slideTo(0);
+mySwiper.slideTo(0);*/
   /**
    * Initiate Pure Counter 
    */
