@@ -86,6 +86,7 @@ function updateInformation(information) {
       document.getElementById('followers').textContent = element['seguidores'];
       document.getElementById('album').textContent = element['ultimoAlbum'];
       document.getElementById('web').textContent = element['web'];
+      document.getElementById('web').href = element['web'];
       document.getElementById('title').textContent = element['titulo'];
       document.getElementById('description').textContent = element['descripcion'];
     }

@@ -1,6 +1,6 @@
 nombre: TaylorSwift
 titulo: La Reinventora del Pop
-debut:Taylor Swift debutó en 2006 con su álbum homónimo,"Taylor Swift".
+debut: Taylor Swift debutó en 2006 con su álbum homónimo,"Taylor Swift".
 seguidores: 105.6 M
 ultimoAlbum: "1989" lanzado en 2023.
 web: https://www.taylorswift.com/
@@ -9,9 +9,9 @@ descripcion: Desde su inicio como una sensación de YouTube hasta convertirse en
 nombre: JustinBieber
 titulo: El Prodigio Convertido en Superestrella
 debut: Justin Bieber debutó en 2009 con su álbum "My World".
-seguidores:73.3 M
+seguidores: 73.3 M
 ultimoAlbum: "Justice", lanzado en 2021.
-web:https://www.justinbiebermusic.com/
+web: https://www.justinbiebermusic.com/
 descripcion: Desde su inicio como una sensación de YouTube hasta convertirse en una superestrella global, Justin Bieber ha mantenido a sus seguidores cautivados con su voz distintiva y su evolución musical, demostrando que su talento va más allá de sus inicios como un prodigio adolescente.
 
 nombre: ArianaGrande
@@ -33,9 +33,9 @@ descripcion:  Ed Sheeran ha cautivado al mundo con su habilidad para componer ca
 nombre: DuaLipa
 titulo: Energía Electrizante y Estilo Vanguardista
 debut: Dua Lipa debutó en 2017 con su álbum homónimo "Dua Lipa".
-seguidores:67.4 M
+seguidores: 67.4 M
 ultimoAlbum: "Future Nostalgia", lanzado en 2021.
-web: https://www.dualipa.com/
+web: https://store.dualipa.com/
 descripcion: Dua Lipa ha irrumpido en la escena musical con su energía electrizante y un estilo vanguardista. Su habilidad para fusionar sonidos contemporáneos con una estética visual única la ha llevado a ser una de las figuras más destacadas en el panorama del pop actual.
 
 nombre: ShawnMendes
