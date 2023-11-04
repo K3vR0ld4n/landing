@@ -250,6 +250,8 @@
     }
   });
 
+  mySwiper.update();
+mySwiper.slideTo(0);
   /**
    * Initiate Pure Counter 
    */
